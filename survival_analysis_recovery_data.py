@@ -16,7 +16,7 @@ from lifelines.statistics import logrank_test
 from lifelines import CoxPHFitter
 
 #Load dataframe
-recovery_df = pd.read_csv("/Users/Wanlu/Documents/Data Science/Survival Analysis/recover_final2.csv")
+recovery_df = pd.read_csv('recover_final2.csv')
 print(recovery_df.iloc[1:10, :])
 #print(recovery_df.head())
 
